@@ -1,7 +1,7 @@
-## Tic Toc Toe game with python3
+# Tic Toc Toe game with python3
 
 
-# In terminal:
+### In terminal:
 
 git clone https://github.com/ysnalpr/tic-toc-toe-game-.git
 
