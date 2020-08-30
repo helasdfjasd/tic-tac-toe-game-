@@ -9,4 +9,21 @@ def print_board(board):
     print('-+-+-')
     print(board['1'] + '|' + board['2'] + '|' + board['3'])
 
-print_board(the_board)
+# print_board(the_board)
+
+def game():
+    turn = 'x'
+    count = 0
+
+    for i in range(10):
+        print_board(the_board)
+        print("نوبت شماست" + turn + "به کدام قسمت میخواید حرکت کنید؟")
+
+        move = input()
+
+        if the_board[move] == ' ':
+            the_board[move] = turn
+            count += 1
+        else:
+            print("این قسمت قبلا پر است.\n به کدام قسمت میخواید حرکت کنید")
+            continue
