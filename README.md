@@ -1,4 +1,4 @@
-# Tic Toc Toe game with python3
+# Tic Tac Toe game with python3
 
 
 ### In terminal:
